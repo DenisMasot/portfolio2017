@@ -1,0 +1,41 @@
+.wrapper{
+  max-width: 792px;
+}
+
+.contact{
+  padding-top: 50px
+}
+.contact h1 {
+font-size: 6rem;
+}
+h2 {
+  font-size: 3rem;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 2.2rem;
+}
+h4{
+  font-size: 1.6rem;
+}
+p{
+  font-size: 1.5rem
+}
+.infos .infos__training h4
+, .infos .infos__experiments h4
+, .infos .infos__skills h4 {
+    padding-bottom: 3px;
+}
+.infos__experiments p {
+    padding-bottom: 10px;
+}
+.contact__txt{
+  font-size: 1.7rem;
+}
+.infos{
+  padding-top: 50px;
+}
+.col-right
+,.col-left{
+    max-width: 329px;
+}

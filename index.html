@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-61190117-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="cache-control" content="max-age=604800">
+  <meta http-equiv="last-modified" content="Sat, 25 Feb 2017 10:00:00 GMT" />
+  <meta name="Desciption" content="CV de Denis Masot">
+  <meta name="Keywords" content="cv, Denis Masot, portfolio, book, réalisations">
+  <meta name="Author" content="Denis MASOT">
+  <meta name="Identifier-URL" content="http://www.denismasot.fr">
+  <meta name="Date-Creation-yyyymmdd" content="20170127">
+  <meta name="Date-Revision-yyyymmdd" content="20170127">
+  <meta name="Reply-to" content="denismasot.fr">
+  <meta name="revisit-after" content="5 days">
+  <meta name="Category" content="Internet">
+  <meta name="Publisher" content="Denis MASOT">
+  <meta name="Copyright" content="Denis MASOT">
+  <meta name="robots" content="index, follow">
+  <title>Denis Masot</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/css.css">
+  <link rel='icon' href='./img/favicon.png' type='image/x-icon'/ >
+</head>
+<body>
+  <div class="wrapper">
+    <section class="home" id="home">
+      <nav class="nav">
+        <div class="nav__left">
+          <h3><a href="#home">DenisMasot</a></h3>
+        </div>
+        <input type="checkbox" id="nav" />
+        <label class="burger" id="burger" for="nav">
+          <span class="cross" id="cross"></span>
+        </label>
+        <ul  class="nav__right" id="menu">
+          <li>
+            <h3><a href="#home">home</a></h3>
+          </li>
+          <li>
+            <h3><a href="#about">À propos</a></h3>
+          </li>
+          <li>
+            <h3><a href="./img/CV%20Denis%20Masot.pdf" target="_blank">CV</a></h3>
+          </li>
+          <li>
+            <h3><a href="#production">Réalisations</a></h3>
+          </li>
+          <li>
+            <h3><a href="#contact">Contact</a></h3>
+          </li>
+        </ul>
+      </nav>
+      <article class="intro">
+        <h1>Denis Masot</h1>
+        <h2>Développeur Front-end</h2>
+        <a href="#contact" class="home__contact-me">me contacter</a>
+      </article>
+    </section>
+    <section id="about" class="about">
+      <div class="about--text">
+        <span class="quotes--left">&#147;</span>
+        <p>
+          Au cours de ma formation de <strong>graphiste</strong> print, j'ai ouvert
+          une maison d'édition associative. Après un détour
+          culturel en Sciences politiques, j’ai décidé d’assouvir ma
+          passion pour les créations graphiques pour le web. Depuis 2015,
+          je suis <strong>développeur Front&#8209;end</strong> en formation en Bachelor Web à HÉTIC.
+        </p>
+        <span class="quotes--right">&#148;</span>
+      </div>
+      <a href="http://denismasot.fr/cv/" class="about--text--btn">DÉCOUVREZ MON CV</a>
+    </section>
+    <section id="production" class="production">
+      <div class="production__content">
+        <h2>Réalisations</h2>
+        <div class="production__content--img">
+          <a href="https://www.aufildutemps-eshop.fr/" target="_blank">
+            <img src="./img/logo_afdt.png" alt="Au fil du temps">
+            <h2 class="production__afdt--hover">Au fil du temps</h2>
+          </a>
+          <a href="https://www.hollywaad.com/" target="_blank">
+            <img src="./img/logo_hollywaad.svg" alt="Hollywaad">
+            <h2 class="production__hollywaad--hover">hollywaad</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact__content">
+        <h2>Contact</h2>
+        <a target="_blank" href="https://fr.linkedin.com/in/denismasot"><span class="icon-social-linkedin-circular"></span></a>
+        <a target="_blank" href="https://github.com/DenisMasot"><span class="icon-github"></span></a>
+        <div class="mobile">
+          <label for="togglemobile" id="fa-mobile"><span class="icon-device-mobile"></span></label>
+          <input type="checkbox" id="togglemobile"><p>06 69 58 06 32</p>
+        </div>
+        <div class="mail">
+          <label for="togglemail" id="fa-envelope"><span class="icon-mail-envelope-closed"></span></label>
+          <input type="checkbox" id="togglemail"><p>denis.masot@gmail.com</p>
+        </div>
+        <form  id="contact" method="post" action="contact.php">
+          <input type="text" id="contact_name lastname" name="lastname" placeholder="Nom"  />
+          <input type="text" id="firstname" name="firstname"  placeholder="Prénom" >
+          <input type="email"  id="contact_email email" name="email"  placeholder="Email" >
+          <input type="text" id="object" name="object" placeholder="Objet"/>
+          <textarea  id="contact_text message" name="message" cols="112" rows="10" placeholder="Message"></textarea>
+          <input type="submit" name="send" value="Envoyer">
+        </form>
+      </div>
+    </section>
+    <section class="copyright">
+      <ul>
+        <li>Denis Masot</li>
+        <li>|</li>
+        <li>denis.masot@gmail.com</li>
+        <li>|</li>
+        <li><a href="https://fr.linkedin.com/in/denismasot">linkedin</a></li>
+        <li>|</li>
+        <li><a href="https://github.com/DenisMasot">github</a></li>
+        <li>|</li>
+        <li>06 69 58 06 32</li>
+      </ul>
+    </section>
+  </div>
+  <script async src="./js/js.js"></script>
+</body>
+</html>
